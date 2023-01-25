@@ -2,10 +2,16 @@ import './FildText.css'
 
 const FildText = (props) => {
   
+  
+
+  const aoDigitado = (e) => {
+    props.aoAlterado(e.target.value);
+  }
+
   return (
     <div className='fild-text'>
       <label >{props.label}</label>
-      <input placeholder={props.placeholder}/>
+      <input value={props.valor} onChange={aoDigitado} required={props.obrigatorio} placeholder={props.placeholder}/>
     </div>
   )
 }
