@@ -1,0 +1,30 @@
+.colaborador {
+  width: 262px;
+}
+
+.cabecalho {
+  background-color: #57C278;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.cabecalho img {
+  width: 120px;
+  border-radius: 50%;
+  position: relative;
+  bottom: -50px;
+}
+
+.rodape {
+  background: #FFF;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+  padding-top: 90px;
+  padding-bottom: 40px;
+}
+
+.rodape h4 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #6278F7;
+}

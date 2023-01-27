@@ -20,6 +20,7 @@ const Formulario = (props) => {
       imagem,
       time
     })
+    
   }
   return (
     <section className='formulario'>
