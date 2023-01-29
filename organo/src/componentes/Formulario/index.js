@@ -33,20 +33,20 @@ const Formulario = (props) => {
         <FildText
           obrigatorio={true}
           label='Nome'
-          placeholder='Digite seu nome'
+          placeholder='Digite o nome do jogador'
           valor={nome}
           aoAlterado={valor => setNome(valor)}
         />
         <FildText
           obrigatorio={true}
-          label='Cargo'
-          placeholder='Digite seu cargo'
+          label='Posição'
+          placeholder='Digite a posição do jogador'
           valor={cargo}
           aoAlterado={valor => setCargo(valor)}
         />
         <FildText
           label='Imagem'
-          placeholder='Informe o endereço da imagem'
+          placeholder='Informe o endereço da imagem do jogador'
           valor={imagem}
           aoAlterado={valor => setImagem(valor)}
         />
@@ -58,7 +58,7 @@ const Formulario = (props) => {
         aoAlterado={valor => setTime(valor)}
         />
         <Botao>
-          <img src='./img/bola.png'/>
+          Criar card
         </Botao>
       </form>
     </section>

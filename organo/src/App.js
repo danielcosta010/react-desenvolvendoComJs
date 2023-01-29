@@ -9,39 +9,44 @@ function App() {
 
   const times = [
     {
-      nome: 'Programação',
-      corPrimaria: '#57C278',
-      corSecundaria: '#D9F7E9'
+      nome: 'Baltimore Ravens - AFC NORTH',
+      corPrimaria: '#23135f',
+      corSecundaria: '#24135f99'
     },
     {
-      nome: 'Front-End',
-      corPrimaria: '#82CFFA',
-      corSecundaria: '#E8F8FF'
+      nome: 'Cincinnat Bengals - AFC NORTH',
+      corPrimaria: '#f54f15',
+      corSecundaria: '#f54f1599'
     },
     {
-      nome: 'Data Science',
-      corPrimaria: '#A6D157',
-      corSecundaria: '#F0F8E2'
+      nome: 'Cleveland Browns - AFC NORTH',
+      corPrimaria: '#331700',
+      corSecundaria: '#33170099'
     },
     {
-      nome: 'Devops',
-      corPrimaria: '#E06B69',
-      corSecundaria: '#FDE7E8'
+      nome: 'Pittsburgh Steelers - AFC NORTH',
+      corPrimaria: '#f7b904',
+      corSecundaria: '#b18c1b99'
     },
     {
-      nome: 'Ux e Design',
-      corPrimaria: '#DB6EBF',
-      corSecundaria: '#FAE9F5'
+      nome: 'Buffalo Bills - AFC EAST',
+      corPrimaria: '#0a217f',
+      corSecundaria: '#0a217f6b'
     },
     {
-      nome: 'Mobile',
-      corPrimaria: '#FFBA05',
-      corSecundaria: '#FFF5D9'
+      nome: 'Miami Dolphins - AFC EAST',
+      corPrimaria: '#00838d',
+      corSecundaria: '#00848d5b'
     },
     {
-      nome: 'Inovação e Gestão',
-      corPrimaria: '#FF8A29',
-      corSecundaria: '#FFEEDF'
+      nome: 'New England Patriots - AFC EAST',
+      corPrimaria: '#061630',
+      corSecundaria: '#061630ba'
+    },
+    {
+      nome: 'New York Jets - AFC EAST',
+      corPrimaria: '#115740',
+      corSecundaria: '#11574054'
     },
   ]
 
