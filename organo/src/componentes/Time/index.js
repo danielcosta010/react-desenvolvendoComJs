@@ -6,7 +6,7 @@ const Time = (props) => {
   const cssBorder = { borderColor: props.corPrimaria }
 
   return (
-   props.colaboradores.length > 0 ? <section className='time' style={cssBackground}>
+    props.colaboradores.length > 0 ? <section className='time' style={cssBackground}>
 
       <h3 style={cssBorder}>{props.nome}</h3>
       <div className='colaboradores'>
@@ -15,12 +15,13 @@ const Time = (props) => {
             nome={colaborador.nome}
             cargo={colaborador.cargo}
             imagem={colaborador.imagem}
+            corDeFundo={props.corPrimaria}
             key={colaborador.nome}
           />
         )}
       </div>
     </section>
-    : ''
+      : ''
   )
 }
 

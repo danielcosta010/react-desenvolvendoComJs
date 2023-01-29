@@ -20,12 +20,16 @@ const Formulario = (props) => {
       imagem,
       time
     })
+    setNome('')
+    setCargo('')
+    setImagem('')
+    setTime('')
     
   }
   return (
     <section className='formulario'>
       <form onSubmit={aoSalvar}>
-        <h2>Prencha os dados para criar o card do colaborador</h2>
+        <h2>Prencha os dados para criar o card do Jogador</h2>
         <FildText
           obrigatorio={true}
           label='Nome'
@@ -54,7 +58,7 @@ const Formulario = (props) => {
         aoAlterado={valor => setTime(valor)}
         />
         <Botao>
-          Criar card
+          <img src='./img/bola.png'/>
         </Botao>
       </form>
     </section>
