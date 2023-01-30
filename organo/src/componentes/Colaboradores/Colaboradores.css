@@ -30,3 +30,7 @@
   line-height: 22px;
   color: #6278F7;
 }
+.altura-peso {
+  display: flex;
+  justify-content: space-around;
+}

@@ -10,9 +10,10 @@ const FildText = (props) => {
 
   return (
     <div className='fild-text'>
-      <label >{props.label}</label>
-      <input value={props.valor} onChange={aoDigitado} required={props.obrigatorio} placeholder={props.placeholder}/>
+      <label className={props.classelabel}>{props.label}</label>
+      <input value={props.valor} onChange={aoDigitado} required={props.obrigatorio} placeholder={props.placeholder} className={props.classe}/>
     </div>
+    
   )
 }
 

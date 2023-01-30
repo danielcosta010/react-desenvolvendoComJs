@@ -8,6 +8,10 @@
   display: inline-block;
   padding-bottom: 8px;
 }
+.time h3::before {
+  content: '';
+  background: url(https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/bal.png&h=40&w=40) no-repeat;
+}
 .colaboradores {
   display: flex;
   justify-content: space-around;

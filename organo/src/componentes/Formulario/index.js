@@ -10,6 +10,8 @@ const Formulario = (props) => {
   const [nome, setNome] = useState('')
   const [cargo, setCargo] = useState('')
   const [imagem, setImagem] = useState('')
+  const [altura, setAltura] = useState('')
+  const [peso, setPeso] = useState('')
   const [time, setTime] = useState('')
 
   const aoSalvar = (e) => {
@@ -18,11 +20,15 @@ const Formulario = (props) => {
       nome,
       cargo,
       imagem,
+      altura,
+      peso,
       time
     })
     setNome('')
     setCargo('')
     setImagem('')
+    setAltura('')
+    setPeso('')
     setTime('')
     
   }
@@ -35,6 +41,8 @@ const Formulario = (props) => {
           label='Nome'
           placeholder='Digite o nome do jogador'
           valor={nome}
+          classe= 'fildtext__input'
+          classelabel= 'fild-text__label'
           aoAlterado={valor => setNome(valor)}
         />
         <FildText
@@ -42,13 +50,33 @@ const Formulario = (props) => {
           label='Posição'
           placeholder='Digite a posição do jogador'
           valor={cargo}
+          classe= 'fildtext__input'
+          classelabel= 'fild-text__label'
           aoAlterado={valor => setCargo(valor)}
         />
         <FildText
           label='Imagem'
           placeholder='Informe o endereço da imagem do jogador'
           valor={imagem}
+          classe= 'fildtext__input'
+          classelabel= 'fild-text__label'
           aoAlterado={valor => setImagem(valor)}
+        />
+        <FildText
+          label='Altura'
+          placeholder='Informe a altura do jogador'
+          valor={altura}
+          classe= 'altura'
+          classelabel='altlabel'
+          aoAlterado={valor => setAltura(valor)}
+        />
+        <FildText
+          label='Peso'
+          placeholder='Informe o peso do jogador'
+          valor={peso}
+          classe= 'peso'
+          classelabel='peslabel'
+          aoAlterado={valor => setPeso(valor)}
         />
         <ListaSuspensa 
         obrigatorio={true} 
