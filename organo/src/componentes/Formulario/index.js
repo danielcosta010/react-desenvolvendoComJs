@@ -30,8 +30,17 @@ const Formulario = (props) => {
     setAltura('')
     setPeso('')
     setTime('')
-    
+
   }
+
+  const handleChange = (e) => {
+    let value = e;
+    if (/^\d{0,3}$/.test(value)) {
+      value = value.replace('.', ',');
+      setAltura(value);
+    }
+  }
+ 
   return (
     <section className='formulario'>
       <form onSubmit={aoSalvar}>
@@ -41,8 +50,8 @@ const Formulario = (props) => {
           label='Nome'
           placeholder='Digite o nome do jogador'
           valor={nome}
-          classe= 'fildtext__input'
-          classelabel= 'fild-text__label'
+          classe='fildtext__input'
+          classelabel='fild-text__label'
           aoAlterado={valor => setNome(valor)}
         />
         <FildText
@@ -50,40 +59,43 @@ const Formulario = (props) => {
           label='Posição'
           placeholder='Digite a posição do jogador'
           valor={cargo}
-          classe= 'fildtext__input'
-          classelabel= 'fild-text__label'
+          classe='fildtext__input'
+          classelabel='fild-text__label'
           aoAlterado={valor => setCargo(valor)}
         />
         <FildText
           label='Imagem'
           placeholder='Informe o endereço da imagem do jogador'
           valor={imagem}
-          classe= 'fildtext__input'
-          classelabel= 'fild-text__label'
+          classe='fildtext__input'
+          classelabel='fild-text__label'
           aoAlterado={valor => setImagem(valor)}
         />
         <FildText
           label='Altura'
-          placeholder='Informe a altura do jogador'
+          placeholder='Informe a altura o jogador'
           valor={altura}
-          classe= 'altura'
-          classelabel='altlabel'
-          aoAlterado={valor => setAltura(valor)}
+          classe='fildtext__input altura'
+          classelabel='fild-text__label'
+          tipo='number'
+          aoAlterado={handleChange}
         />
         <FildText
           label='Peso'
           placeholder='Informe o peso do jogador'
           valor={peso}
-          classe= 'peso'
-          classelabel='peslabel'
+          classe='fildtext__input'
+          classelabel='fild-text__label'
+          tipo='number'
           aoAlterado={valor => setPeso(valor)}
+          
         />
-        <ListaSuspensa 
-        obrigatorio={true} 
-        label='Time' 
-        itens={props.soNomes} 
-        valor={time}
-        aoAlterado={valor => setTime(valor)}
+        <ListaSuspensa
+          obrigatorio={true}
+          label='Time'
+          itens={props.soNomes}
+          valor={time}
+          aoAlterado={valor => setTime(valor)}
         />
         <Botao>
           Criar card

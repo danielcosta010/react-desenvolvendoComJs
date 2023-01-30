@@ -19,37 +19,4 @@
   box-sizing: border-box;
   margin-bottom: 20px;
 }
-.altura {
-  grid-column: 1 / span 1;
-  background-color: rgb(229, 225, 225);
-  box-shadow: 5px 15px 20px rgba(0, 0, 0, 30);
-  border-radius: 10px;
-  width: 45%;
-  border: none;
-  padding: 24px;
-  font-size: 24px;
-  box-sizing: border-box;
-}
-.peso {
-  grid-column: span 2;
 
-  background-color: rgb(229, 225, 225);
-  box-shadow: 5px 15px 20px rgba(0, 0, 0, 30);
-  border-radius: 10px;
-  width: 30%;
-  border: none;
-  padding: 24px;
-  font-size: 24px;
-  box-sizing: border-box;
-}
-.altlabel {
-  font-size: 24px;
-  margin-bottom: 20px;
-  font-weight: 700;
-}
-.peslabel {
-  grid-column: span 2;
-  font-size: 24px;
-  margin-bottom: 20px;
-  font-weight: 700;
-}
