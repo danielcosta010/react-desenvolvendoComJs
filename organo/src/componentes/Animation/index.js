@@ -4,7 +4,9 @@ import './Animacao.css'
 const Maquina = () => {
   const [text, setText] = useState('');
   const [index, setIndex] = useState(0);
-  const fullText = 'SuperBowl LVII Chiefs x Eagles 12/02/2023 as 20:30 (GMT) Local: State Farm Stadium, Arizona (EUA)';
+  
+  
+  const fullText = 'SuperBowl LVII!!! Chiefs x Eagles 12/02/2023 as 20:30 (BRT), Local: State Farm Stadium, Arizona (EUA), Transmissão: ESPN / RedeTv.';
   
   useEffect(() => {
     const typing = () => {

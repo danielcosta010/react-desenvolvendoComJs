@@ -34,11 +34,27 @@ const Formulario = (props) => {
 
   }
 
-  const inputAltura = (event) => {
-    const result = parseFloat(event);
-    setAltura(result.toFixed(2));
+  const inputAltura = (e) => {
+    const value = e;
+    if (value >= 100) {
+      setAltura(value / 100)
+      console.log(value);
+    
+    } else {
+      let newValue = value.replace(',', '.')
+      setAltura(newValue);
+      console.log(newValue);
+    }
   }
- 
+
+  const inputPeso = (e) => {
+    const value = e;
+    if (value <= 160) {
+      setPeso(value);
+    }
+  };
+  
+
   return (
     <section className='formulario'>
       <form onSubmit={aoSalvar}>
@@ -85,8 +101,8 @@ const Formulario = (props) => {
           classe='campo-texto__input'
           classelabel='campo-texto__label'
           tipo='number'
-          aoAlterado={valor => setPeso(valor)}
-          
+          aoAlterado={inputPeso}
+
         />
         <ListaSuspensa
           obrigatorio={true}
