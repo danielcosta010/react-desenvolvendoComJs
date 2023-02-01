@@ -1,8 +1,9 @@
 import { useState } from 'react'
 import Botao from '../Botao'
-import FildText from '../FildText/FildText'
+import CampoTexto from '../CampoTexto/CampoTexto'
 import ListaSuspensa from '../ListaSuspensa'
 import './Formulario.css'
+
 
 const Formulario = (props) => {
 
@@ -33,59 +34,56 @@ const Formulario = (props) => {
 
   }
 
-  const handleChange = (e) => {
-    let value = e;
-    if (/^\d{0,3}$/.test(value)) {
-      value = value.replace('.', ',');
-      setAltura(value);
-    }
+  const inputAltura = (event) => {
+    const result = parseFloat(event);
+    setAltura(result.toFixed(2));
   }
  
   return (
     <section className='formulario'>
       <form onSubmit={aoSalvar}>
         <h2>Prencha os dados para criar o card do Jogador</h2>
-        <FildText
+        <CampoTexto
           obrigatorio={true}
           label='Nome'
           placeholder='Digite o nome do jogador'
           valor={nome}
-          classe='fildtext__input'
-          classelabel='fild-text__label'
+          classe='campo-texto__input'
+          classelabel='campo-texto__label'
           aoAlterado={valor => setNome(valor)}
         />
-        <FildText
+        <CampoTexto
           obrigatorio={true}
           label='Posição'
           placeholder='Digite a posição do jogador'
           valor={cargo}
-          classe='fildtext__input'
-          classelabel='fild-text__label'
+          classe='campo-texto__input'
+          classelabel='campo-texto__label'
           aoAlterado={valor => setCargo(valor)}
         />
-        <FildText
+        <CampoTexto
           label='Imagem'
           placeholder='Informe o endereço da imagem do jogador'
           valor={imagem}
-          classe='fildtext__input'
-          classelabel='fild-text__label'
+          classe='campo-texto__input'
+          classelabel='campo-texto__label'
           aoAlterado={valor => setImagem(valor)}
         />
-        <FildText
+        <CampoTexto
           label='Altura'
           placeholder='Informe a altura o jogador'
           valor={altura}
-          classe='fildtext__input altura'
-          classelabel='fild-text__label'
+          classe='campo-texto__input altura'
+          classelabel='campo-texto__label'
           tipo='number'
-          aoAlterado={handleChange}
+          aoAlterado={inputAltura}
         />
-        <FildText
+        <CampoTexto
           label='Peso'
           placeholder='Informe o peso do jogador'
           valor={peso}
-          classe='fildtext__input'
-          classelabel='fild-text__label'
+          classe='campo-texto__input'
+          classelabel='campo-texto__label'
           tipo='number'
           aoAlterado={valor => setPeso(valor)}
           

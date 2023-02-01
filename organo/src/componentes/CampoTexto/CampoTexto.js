@@ -1,6 +1,6 @@
-import './FildText.css'
+import './CampoTexto.css'
 
-const FildText = (props) => {
+const CampoTexto = (props) => {
    
 
   const aoDigitado = (e) => {
@@ -10,7 +10,7 @@ const FildText = (props) => {
   
 
   return (
-    <div className='fild-text'>
+    <div className='campo-texto'>
       <label className={props.classelabel}>{props.label}</label>
       <input value={props.valor} onChange={aoDigitado} required={props.obrigatorio} placeholder={props.placeholder} className={props.classe} type={props.tipo}/>
     </div>
@@ -18,4 +18,4 @@ const FildText = (props) => {
   )
 }
 
-export default FildText
+export default CampoTexto

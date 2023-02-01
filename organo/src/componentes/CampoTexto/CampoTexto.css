@@ -1,14 +1,14 @@
-.fild-text {
+.campo-texto {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 24px 0;
 }
-.fild-text__label {
+.campo-texto__label {
   margin-bottom: 8px;
   font-size: 24px;
   font-weight: 700;
 }
-.fildtext__input {
+.campo-texto__input {
   grid-column: span 2;
   background-color: rgb(229, 225, 225);
   box-shadow: 5px 15px 20px rgba(0, 0, 0, 30);
@@ -19,4 +19,3 @@
   box-sizing: border-box;
   margin-bottom: 20px;
 }
-
