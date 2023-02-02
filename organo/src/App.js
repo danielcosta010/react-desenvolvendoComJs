@@ -107,7 +107,7 @@ function App() {
     {
       nome:  'Minnesota Vikings - NFC NORTH',
       corPrimaria: '#4d2681',
-      corSecundaria: '#4d2681' 
+      corSecundaria: '#dca91e' 
     },
     {
       nome:  'Dallas Cowboys - NFC EAST',
