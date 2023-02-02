@@ -37,5 +37,6 @@
  }
  .facebook, .instagram, .twitter {
   display: inline-flex;
+  margin: auto 30px;
 }
 }
