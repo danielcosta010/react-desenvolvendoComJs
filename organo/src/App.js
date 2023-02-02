@@ -132,7 +132,7 @@ function App() {
     {
       nome:  'Arizona Cardinals - NFC WEST',
       corPrimaria: '#b0063a',
-      corSecundaria: '#b0063a' 
+      corSecundaria: '#86082ea9' 
     },
     {
       nome:  'Los Angeles Rams - NFC WEST',
