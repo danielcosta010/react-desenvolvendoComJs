@@ -4,7 +4,8 @@
   align-items: center;
 }
 .banner__descricao {
-  color: rgb(227, 206, 206);
+  color: rgb(255, 255, 255);
+  font-weight: 400;
   position: absolute;
   margin-left: 5vw;
 }

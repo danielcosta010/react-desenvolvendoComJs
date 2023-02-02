@@ -4,7 +4,6 @@
 }
 
 .cabecalho {
-  background-color: #57C278;
   border-radius: 10px 10px 0px 0px;
 }
 
@@ -25,10 +24,17 @@
 }
 
 .rodape h4 {
+  color: #6278F7;
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
-  color: #6278F7;
+  text-transform: uppercase;
+}
+.rodape h5 {
+  text-transform: capitalize;
+}
+.altura-peso p {
+  font-weight: 500;
 }
 .altura-peso {
   display: flex;

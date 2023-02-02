@@ -5,7 +5,7 @@ function Banner() {
     <header className='banner'>
       <div className='banner__descricao'>
         <h1>NFL - National Football League </h1>
-        <p>Escolha seus jogadores favoritos e escale em seu time de coração. No link da ESPN abaixo, você encontra informações sobre os jogadores.</p>
+        <p>Escolha seus jogadores favoritos e escale em seu time do coração. No link da ESPN abaixo, você encontra informações sobre os jogadores.</p>
         <div className='icones'> 
           <a href='https://www.espn.com.br/nfl/times' target="_blank" rel="noopener noreferrer"><img src='./img/logoespn.png' alt='Logo da espn Brasil' /></a>
           <a href='https://www.nfl.com/' target="_blank" rel="noopener noreferrer"><img src='./img/logonfl.png' alt='Logo da nfl' /></a>
