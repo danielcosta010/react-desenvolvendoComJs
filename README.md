@@ -1,5 +1,6 @@
 # react-desenvolvendoComJs
 ### Curso alura React: Desenvolvendo com JavaScript
+<a href='https://react-desenvolvendo-com-js-b144.vercel.app/'>Acesse o projeto</a>
 
 - Vantagens da utilização do React
 - Componentes reativos
@@ -51,6 +52,6 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 
-<img src="https://github.com/danielcosta010/react-desenvolvendoComJs/blob/main/organo/public/img/banerprojeto.png#vitrinedev" alt="Foto do banner do site" style="width: 600px">
+<a href='https://react-desenvolvendo-com-js-b144.vercel.app/'><img src="https://github.com/danielcosta010/react-desenvolvendoComJs/blob/main/organo/public/img/banerprojeto.png#vitrinedev" alt="Foto do banner do site" style="width: 600px"></a>
 
-<img src="https://github.com/danielcosta010/react-desenvolvendoComJs/blob/main/organo/public/img/capaprojeto.png#vitrinedev" alt="Foto da capa do site" style="width: 600px">
+<a href='https://react-desenvolvendo-com-js-b144.vercel.app/'><img src="https://github.com/danielcosta010/react-desenvolvendoComJs/blob/main/organo/public/img/capaprojeto.png#vitrinedev" alt="Foto da capa do site" style="width: 600px"></a>
