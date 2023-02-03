@@ -5,7 +5,7 @@
 | -------------  | --- |
 | :sparkles: Nome        | **React - Alura curso**
 | :label: Tecnologias | React, HTML5, CSS3 Java Script (tecnologias utilizadas)
-| :rocket: URL         | <a href="https://react-desenvolvendo-com-js-b144.vercel.app/" target="blank">Acesse o projeto aqui!</a>
+| :rocket: URL         | <a href="https://react-desenvolvendo-com-js-b144.vercel.app/" target="_blank">Acesse o projeto aqui!</a>
 
 
 - Vantagens da utilização do React
@@ -58,6 +58,6 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 
-<a href='https://react-desenvolvendo-com-js-b144.vercel.app/' target="blank"><img src="https://github.com/danielcosta010/react-desenvolvendoComJs/blob/main/organo/public/img/banerprojeto.png#vitrinedev" alt="Foto do banner do site" style="width: 600px"></a>
+<a href='https://react-desenvolvendo-com-js-b144.vercel.app/' target="_blank"><img src="https://github.com/danielcosta010/react-desenvolvendoComJs/blob/main/organo/public/img/banerprojeto.png#vitrinedev" alt="Foto do banner do site" style="width: 600px"></a>
 
-<a href='https://react-desenvolvendo-com-js-b144.vercel.app/' target="blank"><img src="https://github.com/danielcosta010/react-desenvolvendoComJs/blob/main/organo/public/img/capaprojeto.png#vitrinedev" alt="Foto da capa do site" style="width: 600px"></a>
+<a href='https://react-desenvolvendo-com-js-b144.vercel.app/' target="_blank"><img src="https://github.com/danielcosta010/react-desenvolvendoComJs/blob/main/organo/public/img/capaprojeto.png#vitrinedev" alt="Foto da capa do site" style="width: 600px"></a>
