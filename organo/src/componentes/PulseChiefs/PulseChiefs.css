@@ -1,0 +1,26 @@
+.pulse__chiefs {
+  text-align: center;
+}
+.pulse__img {
+  width: 100px; 
+  border-radius: 20px;
+}
+
+.pulse__titulo {
+  color: #d10101;
+  font-size: 24px;
+  font-weight: bolder;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

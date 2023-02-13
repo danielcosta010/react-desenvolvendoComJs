@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Maquina from './componentes/Animation';
 import Banner from './componentes/Banner/Banner';
 import Formulario from './componentes/Formulario';
+import Pulse from './componentes/PulseChiefs';
 import Rodape from './componentes/Rodape';
 import Time from './componentes/Time';
 
@@ -182,6 +183,7 @@ function App() {
     <div className="App">
       <Banner />
       <Maquina />
+      <Pulse />
       <Formulario soNomes={times.map(time => time.nome)} aoColaboradorCadastrado={colaborador => aoNovoColaboradorAdicionado(colaborador)} />
     
      
