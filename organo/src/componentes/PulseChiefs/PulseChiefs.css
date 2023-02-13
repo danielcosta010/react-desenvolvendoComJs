@@ -12,6 +12,9 @@
   font-weight: bolder;
   animation: pulse 1s infinite;
 }
+.pulse__titulo--go {
+  text-transform: uppercase;
+}
 
 @keyframes pulse {
   0% {
